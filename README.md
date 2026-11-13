@@ -26,13 +26,4 @@ Aplicación web de gestión de tareas desarrollada con React + Vite y Firebase A
 - Búsqueda por título o descripción y filtros por estado/prioridad.
 - Resumen de tareas y diseño adaptable a móviles.
 
-## Publicación en Vercel
-1. Sube el contenido del proyecto a un repositorio GitHub.
-2. Entra a https://vercel.com/ e importa el repositorio.
-3. Framework preset: Vite. Build command: `npm run build`. Output directory: `dist`.
-4. En Settings > Environment Variables agrega todas las variables `VITE_FIREBASE_*` que están en `.env`.
-5. Despliega el proyecto.
-6. En Firebase Authentication > Settings > Authorized domains agrega el dominio de Vercel.
 
-## Importante
-No subas el archivo `.env` a GitHub. El archivo `.env.example` solo contiene los nombres de las variables, no secretos. La aplicación requiere configurar Firebase para que el registro, la autenticación y la persistencia en la nube funcionen en producción.
